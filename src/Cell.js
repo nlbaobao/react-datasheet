@@ -12,7 +12,7 @@ export default class Cell extends PureComponent {
 
     const {colSpan, rowSpan} = cell
     const attributes = attributesRenderer ? attributesRenderer(cell, row, col) : {}
-        console.log(1111)
+        console.log(11111)
     return (
       <td
         className={className}
