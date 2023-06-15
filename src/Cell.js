@@ -12,7 +12,6 @@ export default class Cell extends PureComponent {
 
     const {colSpan, rowSpan} = cell
     const attributes = attributesRenderer ? attributesRenderer(cell, row, col) : {}
-        console.log(11111)
     return (
       <td
         className={className}
@@ -21,11 +20,11 @@ export default class Cell extends PureComponent {
         onDoubleClick={onDoubleClick}
         onContextMenu={onContextMenu}
         colSpan={colSpan}
-        rowSpan={rowSpan}
+        // rowSpan={rowSpan}
         style={style}
         {...attributes}
       >
-        {this.props.children}
+        {/* {this.props.children} */}
       </td>
     )
   }
