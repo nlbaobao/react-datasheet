@@ -18,8 +18,8 @@ export default class Cell extends PureComponent {
         onMouseDown={onMouseDown}
         onMouseOver={onMouseOver}
         onDoubleClick={onDoubleClick}
-        onContextMenu={onContextMenu}
-        colSpan={colSpan}
+          // onContextMenu={onContextMenu}
+        colSpan={colSpan}  
         // rowSpan={rowSpan}
         style={style}
         {...attributes}
@@ -29,7 +29,7 @@ export default class Cell extends PureComponent {
     )
   }
 }
-
+  console.log(1111)
 Cell.propTypes = {
   row: PropTypes.number.isRequired,
   col: PropTypes.number.isRequired,
