@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 
 class Sheet extends PureComponent {
   render () {
-    console.log(2222)
+    console.log(1111)
 
     return (
       <table className={this.props.className}>
