@@ -14,7 +14,7 @@ class Sheet extends PureComponent {
     )
   }
 }
-console.log(3333)
+console.log(1111)
 Sheet.propTypes = {
   className: PropTypes.string,
   data: PropTypes.array.isRequired
