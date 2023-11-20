@@ -3,6 +3,8 @@ import PropTypes from 'prop-types'
 
 class Sheet extends PureComponent {
   render () {
+    console.log(222)
+
     return (
       <table className={this.props.className}>
         <tbody>
@@ -12,7 +14,7 @@ class Sheet extends PureComponent {
     )
   }
 }
-
+console.log(111)
 Sheet.propTypes = {
   className: PropTypes.string,
   data: PropTypes.array.isRequired
